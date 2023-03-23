@@ -76,7 +76,7 @@
 
             if ($sign == '/'){
                 if ($op1 == 'x'){
-                    $result = $op2 / $res;
+                    $result = $op2 * $res;
                     echo $result;
                 }elseif ($op1 !== 'x'){
                     $result = $op1 / $res;
